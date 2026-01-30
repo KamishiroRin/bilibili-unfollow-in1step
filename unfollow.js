@@ -5,7 +5,7 @@
  
 // 配置常量
 const CONFIG = {
-  CLICK_DELAY: 250,        // 点击间隔时间（毫秒）
+  CLICK_DELAY: 250,        // 点击间隔时间（毫秒），推荐250-400
   PAGE_SWITCH_DELAY: 1000, // 页面切换等待时间（毫秒）
   PAGE_LOAD_DELAY: 2000,   // 页面加载等待时间（毫秒）
   MAX_RETRY_COUNT: 3       // 最大重试次数
@@ -192,3 +192,4 @@ batchUnfollow(15;
  
 // 如果要处理多页，可以这样调用：
 // batchUnfollow(5); // 处理5页
+
